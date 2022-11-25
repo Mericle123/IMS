@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Resignation Form</title>
+    <link rel="stylesheet" href="resignation.css" />
+
+    <!-- Boxiocns CDN Link -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- bootstrap.com -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  </head>
+  <body>
+    <div class="sidebar close">
+      <div class="logo-details">
+        <i class="bx bx-menu"></i>
+        <span class="logo_name">The webpage</span>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <div class="iocn-link">
+            <a href="#">
+              <i class="bx bx-grid-alt"></i>
+              <span class="link_name">Home</span>
+            </a>
+            <i class="bx bxs-chevron-down arrow"></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="link_name" href="#">Home</a></li>
+            <li><a href="index.html">Dashboard</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="iocn-link">
+            <a href="#">
+              <i class="bx bx-collection"></i>
+              <span class="link_name">About</span>
+            </a>
+            <i class="bx bxs-chevron-down arrow"></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a href="rule.html">Rules And Regulation</a></li>
+            <li><a href="cal.html">Calender</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="iocn-link">
+            <a href="#">
+              <i class="bx bx-book-alt"></i>
+              <span class="link_name">Service</span>
+            </a>
+            <i class="bx bxs-chevron-down arrow"></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="link_name" href="#">Services</a></li>
+            <li><a href="property.html">Inventory and Property</a></li>
+            <li><a href="registering.html">Human Resource</a></li>
+            <li><a href="complaint.html">Complaint Form</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="iocn-link">
+            <a href="#">
+              <i class="bx bx-pie-chart-alt-2"></i>
+              <span class="link_name">Staff Service</span>
+            </a>
+            <i class="bx bxs-chevron-down arrow"></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="link_name" href="index.html">Staff Service</a></li>
+            <li><a href="leave.html">Leave Application</a></li>
+            <li><a href="promotion.html">Promotion form</a></li>
+            <li><a href="resignation.html">Resignation form</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="profile-details">
+            <div class="profile-content">
+              <img src="profile_pic.png" alt="profile" />
+            </div>
+            <div class="name-job">
+              <div class="profile_name">Jimmy</div>
+              <div class="job">Military Guy</div>
+            </div>
+            <a href="login.html"><i class="bx bx-log-out"></i></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- content  -->
+    <!-- the page part -->
+    <section class="home-section">
+      <div class="testbox">
+        <form action="/">
+          <h1>Resignation form</h1>
+
+          <div class="item">
+            <p>Joined the military Since?</p>
+            <input type="date" name="name" required />
+            <i class="fas fa-calendar-alt"></i>
+          </div>
+          <div class="item">
+            <p>Your name</p>
+            <div>
+              <input type="text" name="name" placeholder="First" required />
+              <input type="text" name="name" placeholder="Last" required />
+            </div>
+          </div>
+          <div class="item">
+            <p>Your department</p>
+            <select>
+              <option value="" disabled selected>Which DIVISION?</option>
+              <option value="A">Army</option>
+              <option value="B">Navy</option>
+              <option value="C">Police</option>
+              <option value="D">Marine</option>
+              <option value="E">Air Force</option>
+              <option value="F">Cost Guard</option>
+            </select>
+          </div>
+          <div class="item">
+            <p>Your Rank</p>
+            <select>
+              <option value="" disabled selected>What Is Your Rank?</option>
+              <option value="A">Private</option>
+              <option value="B">Private First class</option>
+              <option value="C">Specialist</option>
+              <option value="D">Corporal</option>
+              <option value="E">Sargent</option>
+              <option value="F">Staff Sergeant</option>
+              <option value="G">Sargeant First Class</option>
+              <option value="H">Master Sergent</option>
+              <option value="I">First Sergeant</option>
+              <option value="J">Sergeant Major</option>
+              <option value="K">Commander Sergeant Major</option>
+              <option value="L">Sargeant Major Of The DIVISION</option>
+              <option value="M">Warrant Officer 1</option>
+              <option value="N">Chief Warrant Officer 2</option>
+              <option value="O">Chief Warrant Officer 3</option>
+              <option value="P">Chief Warrant Officer 4</option>
+              <option value="Q">Chief Warrant Officer 5</option>
+              <option value="R">General of the Army</option>
+              <option value="S">General</option>
+              <option value="T">liutenant General</option>
+              <option value="U">Major General</option>
+              <option value="V">Brigadier General</option>
+              <option value="W">Colonel</option>
+              <option value="X">liutenant Colonel</option>
+              <option value="Y">Major</option>
+              <option value="Z">Captin</option>
+              <option value="SUGER">First Lieutenant</option>
+              <option value="IN THE BAG ">Second Lieutanent</option>
+            </select>
+          </div>
+          <div class="item">
+            <p>Your reason from Resignation</p>
+            <textarea rows="3" style="resize: none" required></textarea>
+          </div>
+
+          <div class="item">
+            <p>Required Documents :</p>
+          </div>
+          <div class="image-upload">
+            <input
+              type="file"
+              name=""
+              id="logo"
+              onchange="fileValue(this)"
+              required
+            />
+            <label for="logo" class="upload-field" id="file-label">
+              <div class="file-thumbnail">
+                <img
+                  id="image-preview"
+                  src="https://www.btklsby.go.id/images/placeholder/basic.png"
+                  alt=""
+                />
+                <h3 id="filename">Drag and Drop</h3>
+                <p>Doc</p>
+              </div>
+            </label>
+          </div>
+
+          <div class="btn-block">
+            <button type="submit" href="#">Send</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <script src="resignation.js"></script>
+  </body>
+</html>
